@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>UniteTravel</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<a href="#" class="header__link">
+						<p class="header__logo">
+							unite<span class="header__logo travel">travel</span>
+						</p>
+					</a>
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="#general" class="nav__link">О нас</a>
+							</li>
+							<li class="nav__item">
+								<a href="#tours" class="nav__link">Туры</a>
+							</li>
+							<li class="nav__item">
+								<a href="#contact" class="nav__link">Контакты</a>
+							</li>
+							<li class="nav__item">
+								<a href="#gallery" class="nav__link">Фотогалерея</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__btn">
+						<button class="btn sing-up">sing up</button>
+						<button class="btn log-in">log in</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="general" id="general">
+				<div class="container general__block">
+					<div class="general__heading">
+						<h1 class="heading">Авторские&nbsp;<br />туры в Карелию</h1>
+					</div>
+					<button class="general__btn">Забронировать</button>
+				</div>
+			</section>
+
+			<section class="tours" id="tours">
+				<div class="container">
+					<h2 class="tourse__title">Туры</h2>
+					<div class="tours__cards">
+						<div class="tours__card">
+							<img
+								src="assets/image-1.jpg"
+								alt="image"
+								class="tours__card-img"
+							/>
+							<span class="tours__card-svg"></span>
+							<div class="tours__card-info">
+								<p class="tours__card-name">Frendly-&nbsp;<br />tour</p>
+								<p class="tours__card-date">01.05-10.05</p>
+							</div>
+						</div>
+						<div class="tours__card">
+							<img
+								src="assets/image-2.jpg"
+								alt="image"
+								class="tours__card-img"
+							/>
+							<span class="tours__card-svg"></span>
+							<div class="tours__card-info">
+								<p class="tours__card-name">Осень</p>
+								<p class="tours__card-date">01.09-10.09</p>
+							</div>
+							<span class="prosent"> </span>
+						</div>
+						<div class="tours__card">
+							<img
+								src="assets/image-3.jpg"
+								alt="image"
+								class="tours__card-img"
+							/>
+							<span class="tours__card-svg"></span>
+							<div class="tours__card-info">
+								<p class="tours__card-name">Лето</p>
+								<p class="tours__card-date">01.06-10.06</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact" id="contact">
+				<div class="container">
+					<h2 class="tourse__title">Контакты</h2>
+					<div class="contact__block">
+						<div class="contact__map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147513.18075791435!2d20.299724493486966!3d54.71149773291686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e33d8d4b7c21a9%3A0x5050960016126ed3!2z0JrQsNC70LjQvdC40L3Qs9GA0LDQtCwg0JrQsNC70LjQvdC40L3Qs9GA0LDQtNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1715076066536!5m2!1sru!2sru"
+								width="560"
+								height="460"
+								loading="lazy"
+								class="contact__iframe"
+							></iframe>
+						</div>
+						<div class="contact__info">
+							<ul class="contact__list">
+								<li class="contact__item">
+									<p class="contact__link contact__phone">
+										Телефон:
+										<a href="tel:+71234567890" class="contact__link">
+											+7(123)456-78-90
+										</a>
+									</p>
+								</li>
+								<li class="contact__item">
+									<p class="contact__link contact__mail">
+										Почта:
+										<a href="mailto:example@example.com" class="contact__link">
+											example@example.com
+										</a>
+									</p>
+								</li>
+								<li class="contact__item">
+									<p class="contact__link contact__adress">
+										Адресс:
+										<a
+											href="https://maps.app.goo.gl/aKUfAQKfxMSqT7R27"
+											class="contact__link"
+										>
+											Калининград, ул. Канта, 1.
+										</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="gallery" id="gallery">
+				<div class="container">
+					<h2 class="tourse__title">Фотогалерея</h2>
+				</div>
+				<div class="gallery__content">
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="assets/foto-1.png" alt="foto" class="swiper-img" />
+							</div>
+							<div class="swiper-slide">
+								<img src="assets/foto-2.png" alt="foto" class="swiper-img" />
+							</div>
+							<div class="swiper-slide">
+								<img src="assets/foto-3.png" alt="foto" class="swiper-img" />
+							</div>
+							<div class="swiper-slide">
+								<img src="assets/foto-4.png" alt="foto" class="swiper-img" />
+							</div>
+							<div class="swiper-slide">
+								<img src="assets/foto-5.png" alt="foto" class="swiper-img" />
+							</div>
+							<div class="swiper-slide">
+								<img src="assets/foto-3.png" alt="foto" class="swiper-img" />
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-btn">
+						<div class="swiper-button-prev">
+							<img
+								src="assets/svg/chevron-back-outline.svg"
+								alt="prev"
+								class="prev"
+							/>
+						</div>
+						<div class="swiper-button-next">
+							<img
+								src="assets/svg/chevron-forward-outline.svg"
+								alt="next"
+								class="next"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container footer__content">
+				<a href="#" class="header__link">
+					<p class="header__logo">
+						unite<span class="header__logo travel">travel</span>
+					</p>
+				</a>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">Вакансии</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Контакты</a>
+					</li>
+				</ul>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">Туры</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Другие проекты</a>
+					</li>
+				</ul>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">Лицензия</a>
+					</li>
+					<li class="footer__item">
+						<a href="#" class="footer__link">Наши гиды</a>
+					</li>
+				</ul>
+				<img src="assets/logo-footer.png" alt="logo" class="footer__img" />
+			</div>
+		</footer>
+
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
